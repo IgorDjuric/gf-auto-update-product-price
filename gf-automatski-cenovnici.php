@@ -10,7 +10,7 @@
  * @wordpress-plugin
  * Plugin Name: GF Automatski cenovnici
  * Plugin URI:  https://example.com/plugin-name
- * Description: Custom product stickers
+ * Description: Auto update product prices
  * Version:     1.0.0
  * Author:      Green Friends
  * Author URI:  https://example.com

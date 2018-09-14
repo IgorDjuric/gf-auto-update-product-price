@@ -24,7 +24,10 @@ class gfAutoUpdateProductPrice
                 update_post_meta($product_id, 'input_price', $data[1]);
                 $product->set_sale_price($data[2]);
                 $product->set_regular_price($data[3]);
+
+                /*TODO proveriti za status */
                 $product->set_status($data[4]);
+
                 $product->save();
                 wp_update_post(array(
                     'ID' => $product_id,
